@@ -23,6 +23,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'bcrypt', '~> 3.1.7'
 # Use Devise for user authentivation
 gem 'devise', '~> 4.7', '>= 4.7.1'
+# Use Cancancan for authorization
+gem 'cancancan', '~> 3.1'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'

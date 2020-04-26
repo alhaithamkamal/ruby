@@ -2,7 +2,6 @@ class ArticlesController < ApplicationController
     http_basic_authenticate_with name: "haitham", password: "strawhat", except: [:index, :show]
 
     def index
-        @current_user = User.find session[:user_id] 
         @articles = Article.all
     end
     
